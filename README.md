@@ -76,7 +76,7 @@ This app uses two dummy API endpoints to validate events and tickets:
 
 ## Project Structure:
 event-booking-app
-├── App.js               # Main app entry point and navigation setup
+├── App.js               # Main app entry point and navigation setup                                                                                                                                                
 ├── screens              # Folder containing all app screens
 │   ├── EventCodeScreen.js  # Event code entry and validation
 │   ├── QRScannerScreen.js  # QR code scanning and ticket validation
