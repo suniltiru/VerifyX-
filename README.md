@@ -65,3 +65,37 @@ This app uses two dummy API endpoints to validate events and tickets:
    ```bash
    git clone https://github.com/suniltiru/VerifyX-.git
    cd VerifyX
+
+2. **Install dependencies**:
+
+   npm install
+
+3. **Start Expo development server**:
+   npx expo start
+
+
+## Project Structure:
+event-booking-app
+├── App.js               # Main app entry point and navigation setup
+├── screens              # Folder containing all app screens
+│   ├── EventCodeScreen.js  # Event code entry and validation
+│   ├── QRScannerScreen.js  # QR code scanning and ticket validation
+│   ├── SuccessScreen.js    # Success screen for valid tickets
+│   └── FailureScreen.js    # Failure screen for invalid tickets
+├── assets               # Project assets (images, icons)
+├── node_modules         # Node.js modules
+├── package.json         # Project dependencies and scripts
+└── README.md            # Project documentation
+
+## License
+
+### Customization Tips
+
+1. Replace `https://github.com/yourusername/event-booking-app.git` with your GitHub repository link.
+2. If you have actual API documentation, include it in a `docs/` folder for detailed reference.
+3. Add screenshots in the `assets` folder and reference them in the README for better visual guidance. 
+
+This README provides clear setup and usage instructions that should help users understand and get started with your app quickly!
+
+
+
